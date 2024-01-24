@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/e7f3a6b902.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+<nav>
+    <div class="circle">
+        <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <div class="circle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+<img src="sidhu.jpg" class="song-img">
+<h1>Game</h1>
+<p>Sidhu Moose Wala</p>
+
+<audio  id="song">
+    <source src="WhatsApp Audio 2024-01-22 at 11.11.42_6e30691b.mp3">
+</audio>
+<input type="range" value="0" id="progress">
+<div class="controls">
+    <div><i class="fa-solid fa-backward"></i></div>
+    <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+    <div><i class="fa-solid fa-forward"></i></div>
+</div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
